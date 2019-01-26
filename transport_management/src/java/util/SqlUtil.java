@@ -21,9 +21,9 @@ public class SqlUtil {
     
     static Statement st;
     static Connection con;
-    static final String DB_URL="jdbc:mysql://localhost:3306/bharatsanchar";
-    static final String USERNAME="root";
-    static final String PASSWORD="tiger";
+    static final String DB_URL="jdbc:mysql://localhost:3306/transport_management";
+    static final String USERNAME="root@localhost";
+    static final String PASSWORD="root";
     
   public static void connect() throws ClassNotFoundException,SQLException
    {
